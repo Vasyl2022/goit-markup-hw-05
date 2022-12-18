@@ -36,7 +36,7 @@
             >
             <ul class="header-nav-list list">
               <li class="header-nav-item">
-                <a class="header-nav-link link current" href="">Студія</a>
+                <a class="header-nav-link link" href="">Студія</a>
               </li>
               <li class="header-nav-item">
                 <a class="header-nav-link link" href="./portfolio.html"
@@ -77,7 +77,7 @@
       <section class="hero section">
         <div class="container">
           <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-          <button class="btn" type="button">Замовити послугу</button>
+          <button class="btn" type="button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
 
@@ -163,6 +163,9 @@
                 width="370"
                 height="294"
               />
+              <p class="our-work-cover-text">
+                ДЕСКТОПНІ ДОДАТКИ
+              </p>
             </li>
             <li class="our-work-item">
               <img
@@ -171,6 +174,9 @@
                 width="370"
                 height="294"
               />
+              <p class="our-work-cover-text">
+                МОБІЛЬНІ ДОДАТКИ
+              </p>
             </li>
             <li class="our-work-item">
               <img
@@ -179,6 +185,9 @@
                 width="370"
                 height="294"
               />
+              <p class="our-work-cover-text">
+                ДИЗАЙНЕРСЬКІ РІШЕННЯ
+              </p>
             </li>
           </ul>
         </div>
@@ -459,5 +468,14 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+<button type="button" class="modal-close" data-modal-close>
+  <svg width="20" height="20" class="teams-soc-icons">
+    <use href="./images/icons.svg#icon-close"></use></svg
+</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
